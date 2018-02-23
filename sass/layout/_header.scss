@@ -1,0 +1,26 @@
+.affix {
+    z-index: 1;
+    top: 0;
+    width: 100%;
+}
+
+.header_top {
+    background: $main_dark_color;
+    color: $main_highlighted_color;
+    min-height: 80px;
+}
+
+.my_nav_styling .navbar-nav>li>a {
+    color: #fff;
+    &:hover {
+        color: $main_highlighted_color;
+    }
+}
+
+.my_nav_styling {
+    border-radius: 0%;
+    &.affix-top {
+    margin: 0;
+}
+}
+
